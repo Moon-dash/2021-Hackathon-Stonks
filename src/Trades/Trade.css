@@ -1,0 +1,97 @@
+.tradePage-body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #282c34;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.buy-button{
+    background-color:lime;
+    margin: 5px;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 1px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 3px;
+  }
+
+  .graphs{
+    display:flex; 
+    flex-direction:row;
+    background-color: #282c34;
+    justify-content: center;
+    height: 200px
+  }
+
+  .graphs div{
+      color: white;
+      width: 500px;
+      height: 500x;
+      outline: 2px solid white;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      margin-right: 50px;    
+ }
+
+  .tradePage img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+  .sell-button{
+    background-color:crimson;
+    margin: 5px;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 1px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 3px;
+  }
+.username, .password{
+    margin: 5px;
+    padding: 5px;
+}
+
+.tradePage{
+    display: flex;
+    justify-content: center;
+    background-color: #282c34;
+    color: white;
+}
+.login-button{
+    background-color:gold;
+    margin: 5px;
+    border: 2px;
+    border-color: black;
+}
+.login-button:hover {
+    background-color: goldenrod; 
+  }
+
+#Login-Link{
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+    border-color:grey;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#Login-Link:hover{
+    background-color: goldenrod;
+}
+

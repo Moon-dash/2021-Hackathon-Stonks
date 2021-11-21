@@ -1,0 +1,16 @@
+.favCoin-listComponent  {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 15px;
+    margin-top: 80px !important;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    position:static;
+    min-height: fit-content;
+    min-width: 1150px;
+    margin-bottom: 80px;
+}
+
+    
