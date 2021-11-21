@@ -1,0 +1,136 @@
+.coinContainer  {
+    display: flex;
+    justify-content: center;
+}
+
+.coinRow    {
+    display: flex;
+    /* flex-direction: row; */
+    justify-items: Start;
+    align-items: center;
+    /* height: 80px; */
+    border-bottom: 1px solid #d7d7d7;
+    width: max-content;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    transition-duration: 0.5s;
+}
+
+.expand {
+    border: 1px solid #d7d7d7;
+    border-radius: 25px;
+    width: 700px;
+}
+/*.buy-button{
+    background-color:gold;
+    padding: 5px;
+    text-decoration: none;
+    align-items: center;
+    color:var(--background);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 3px;
+}*/
+
+.coinData h1 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.coin   {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 800px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.coin:hover {
+    color: var(--background)!important;
+    background: gold; /* make this whatever you want */
+    border-radius: 25px;
+    
+}
+
+.coinBasic {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.coin h1{
+    font-size: 18px;
+    width: 150px;
+    vertical-align: center;
+    font-weight: 600;
+    padding-top: 14px;
+}
+
+
+.coin img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    padding-top: 2px;
+}
+
+.coinSymbol {
+    text-transform: uppercase;
+}
+
+.coinData   {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.coinPrice  {
+    width: 110px;
+}
+
+.coinVolume {
+    width: 155px;
+}
+
+.coinMarketCap  {
+    width: 230px;
+}
+
+.coinPercent    {
+    width: 100%;
+}
+
+.red    {
+    color: #ec0548;
+}
+
+.green  {
+    color: #00ec86
+}
+/*
+    *css to expand display
+*/
+
+.icon   {
+    font-size: 16px;
+    color: gold;
+}
+
+.coin:hover .icon {
+    color: var(--background);
+}
+
+.coin:hover .red   {
+    color: #b40f3a;
+}
+
+.coin:hover .green   {
+    color: #017d6f;
+}
+  

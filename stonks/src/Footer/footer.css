@@ -1,0 +1,32 @@
+.img_icon {
+    border-radius: 50%;
+    height: 50px;
+    padding: 2px;
+}
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: gold;
+    color: var(--background);
+}
+.About-Link{
+  background-color:var(--background);
+  margin: 5px;
+  text-decoration: none;
+  align-items: center;
+  padding-top: 7px;
+  color: gold;
+  border-radius: 7px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#footer-middle{
+  margin-top: 10px;
+}
+
+.icons {
+  padding: 5px;
+  color: var(--dark);
+}
